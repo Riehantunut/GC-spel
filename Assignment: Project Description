@@ -1,0 +1,66 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper]{geometry}
+\topmargin 0.0cm
+\oddsidemargin 0.2cm
+\textwidth 16cm 
+\textheight 21cm
+\footskip 1.0cm
+%Språkinstälningar
+%\usepackage[fixlanguage]{babelbib}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\selectbiblanguage{english}
+
+%blaj för att se om det fungerar
+%\usepackage{afterpage}
+
+%Omslagsinställningar
+\usepackage{pdfpages}
+
+
+\usepackage{siunitx} %Grader-cirkel
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{lastpage}
+
+%Figurer
+\usepackage{hyperref}
+\usepackage{floatrow}
+%\usepackage{subfig}
+\usepackage{longtable}
+\usepackage{graphicx}
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+
+\title{Course 833 \\ Global Challenges - Expressing \\
+Project Description}
+\author{}
+\date{\today}
+
+\newgeometry{top=1cm}
+
+\begin{document}
+
+\maketitle
+
+\section*{Group members}
+\begin{itemize}
+    \item Mathias Östlund, 24299
+    \item Olle Ribberheim, 24304
+    \item Gabriel Ehrnst Grundin, 24525
+    \item Sandra Ivarsson, 24537
+    \item Mathias Waldemarsson, 24554
+    \item Arash Dabiri, 24573
+\end{itemize}
+\section*{Project Description}
+The purpose of the project is to develop an educational mobile game to teach children in grade six to nine in high school about the tragedy of the commons and the importance of sustainable consumption. The class will be divided into teams where each team represents a tribe on an isolated island and each tribe will have to extract different types of resources in order to maximizes their own welfare. However, if every tribe maximize their own welfare in the short term, the resources will be depleted and will not satisfy their needs in the future. To excel in the game, the whole class will need to communicate in order to limit the consumption rate in the short term. In classes which deplete all resources all tribes will lose collectively and in classes which have sustainable consumption all tribes will win collectively. The teacher will get the role as a moderator during the game and will get clear instructions in what way they will interact with the children in order to make the whole implementation as smooth as possible.\par
+\noindent
+\\The project aims to contribute to the solution of the sustainable development goals number four, eleven and twelve. Teaching about sustainability and the importance of communication at an early stage in the education system is important to ensure that all members of society have the knowledge to promote sustainablity worldwide. \par
+\noindent
+\\The project will be divided into different areas of work like app development, game design, graphics, and distribution to schools in Stockholm and surrounding cities. Each group member will be more engaged in certain areas of work than others, but everyone will be working where it is needed for the moment.
+\end{document}
